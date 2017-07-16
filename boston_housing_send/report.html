@@ -13588,7 +13588,7 @@ pGrY6UmSqmHoSZKqYehJkqph6EmSqmHoSZKqYehJkqrxDYJ7QOSnh0TOAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Resposta: </strong> Quanto menor a profundidade maior a chance de viés. O Score é maximizado quando aumentada a profundidade, entretanto deve se ter cuidado pois para a validação foram utilizados os mesmos dados do treinamento e isso não garante que com o parâmetro de profundidade 10 haverá baixa variância. Podemos ver que na profundidade 1 o desvio padrão é alto(Score Baixo) e varia bastante, indicando que a saída não é tão afetada pelos dados de entrada.</p>
+<p><strong>Resposta: </strong> Com a profundidade 1 o modelo sofre mais com viés, pois apresenta erro de previsão alto no conjunto de treinamento e erro parecido no conjunto de testes. Com o aumento da profundidade o erro no conjunto de treinamento diminui entretanto a partir de certo ponto o erro no conjunto de teste começa a aumentar, sendo a profundidade 10 ótima no conjunto de treinamento, mas não tão boa para a generalização do modelo.</p>
 
 </div>
 </div>
